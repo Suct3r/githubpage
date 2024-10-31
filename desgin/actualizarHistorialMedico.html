@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Actualizar Historial Medico</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+   <header class="header">
+
+      <section class="flex">
+
+         <a href="VerCitas.php" class="logo">Coffee & Medical Care</a>
+
+
+
+         <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="user-btn" class="fas fa-user"></div>
+            <div id="toggle-btn" class="fas fa-sun"></div>
+         </div>
+
+         <div class="profile">
+            <img src="images/pic-1.jpg" class="image" alt="">
+            <h3 class="name">shaikh anas</h3>
+            <p class="role">studen</p>
+            <a href="Perfil.php" class="btn">Ver Perfil</a>
+            <div class="flex-btn">
+               <a href="login.html" class="option-btn">Cerrar Sesion</a>
+
+            </div>
+         </div>
+
+      </section>
+
+   </header>
+
+   <div class="side-bar">
+
+      <div id="close-btn">
+         <i class="fas fa-times"></i>
+      </div>
+
+      <div class="profile">
+         <img src="images/pic-1.jpg" class="image" alt="">
+         <h3 class="name">shaikh anas</h3>
+         <p class="role">studen</p>
+         <a href="Perfil.php" class="btn">Ver Perfil</a>
+      </div>
+
+      <nav class="navbar">
+         <a href="VerCitas.php"><i class="fas fa-search"></i><span>Ver Citas</span></a>
+         <a href="AgendarCita.php"><i class="fas fa-sun"></i><span>courses</span></a>
+         <a href="ListaRegistro.php"><i class="fas fa-chalkboard-user"></i><span>Lista de registros</span></a>
+         <a href="HistorialMedico.html"><i class="fas fa-user"></i><span>Historial Medico</span></a>
+
+      </nav>
+
+   </div>
+
+   <section class="form-container">
+
+      <form action="" method="post" enctype="multipart/form-data">
+         <h3>Actualizar Historial Medico</h3>
+         <p>Lugar de Nacimiento</p>
+         <input type="text" name="name" placeholder="Ingresa tu lugar de Nacimiento" maxlength="50" class="box">
+         <p>Tipo de sangre</p>
+         <input type="email" name="email" placeholder="Ingresa tu tipo de sangre" maxlength="50" class="box">
+         <p>Enfermedades</p>
+         <input type="password" name="old_pass" placeholder="Ingresa tus Enfermedades" maxlength="20" class="box">
+         <p>Alergias</p>
+         <input type="password" name="new_pass" placeholder="Ingresa tus Alergias" maxlength="20" class="box">
+
+         <input type="submit" value="Actualizar" name="submit" class="btn">
+      </form>
+
+   </section>
